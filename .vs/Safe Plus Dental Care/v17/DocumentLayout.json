@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eashan\\Desktop\\This pc\\AIUB\\6th semester\\oop2\\final\\lab2\\Safe Plus Dental Care\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73C5BCA8-1DE2-4E62-B852-3B375E4A6D19}|Safe Plus Dental Care\\Safe Plus Dental Care.csproj|c:\\users\\eashan\\desktop\\this pc\\aiub\\6th semester\\oop2\\final\\lab2\\safe plus dental care\\safe plus dental care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73C5BCA8-1DE2-4E62-B852-3B375E4A6D19}|Safe Plus Dental Care\\Safe Plus Dental Care.csproj|solutionrelative:safe plus dental care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Eashan\\Desktop\\This pc\\AIUB\\6th semester\\oop2\\final\\lab2\\Safe Plus Dental Care\\Safe Plus Dental Care\\Form1.cs",
+              "RelativeDocumentMoniker": "Safe Plus Dental Care\\Form1.cs",
+              "ToolTip": "C:\\Users\\Eashan\\Desktop\\This pc\\AIUB\\6th semester\\oop2\\final\\lab2\\Safe Plus Dental Care\\Safe Plus Dental Care\\Form1.cs [Design]",
+              "RelativeToolTip": "Safe Plus Dental Care\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T06:16:06.884Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
