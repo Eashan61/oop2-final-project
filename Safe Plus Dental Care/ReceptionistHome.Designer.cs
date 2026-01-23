@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBookApp = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -51,21 +52,22 @@
             this.button2.Text = "Cancel Appointment";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnBookApp
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(280, 140);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(234, 27);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "Book Appointment";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBookApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnBookApp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBookApp.FlatAppearance.BorderSize = 0;
+            this.btnBookApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBookApp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBookApp.ForeColor = System.Drawing.Color.White;
+            this.btnBookApp.Location = new System.Drawing.Point(280, 140);
+            this.btnBookApp.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBookApp.Name = "btnBookApp";
+            this.btnBookApp.Size = new System.Drawing.Size(234, 27);
+            this.btnBookApp.TabIndex = 21;
+            this.btnBookApp.Text = "Book Appointment";
+            this.btnBookApp.UseVisualStyleBackColor = false;
+            this.btnBookApp.Click += new System.EventHandler(this.btnBookApp_Click);
             // 
             // button3
             // 
@@ -115,16 +117,30 @@
             this.button5.Text = "Dashboard";
             this.button5.UseVisualStyleBackColor = false;
             // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.Location = new System.Drawing.Point(11, 11);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(142, 37);
+            this.btnLogout.TabIndex = 26;
+            this.btnLogout.Text = "Log Out";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // ReceptionistHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBookApp);
             this.Name = "ReceptionistHome";
             this.Text = "ReceptionistHome";
             this.ResumeLayout(false);
@@ -134,9 +150,10 @@
         #endregion
 
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBookApp;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

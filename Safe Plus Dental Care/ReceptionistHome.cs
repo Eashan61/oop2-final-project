@@ -16,5 +16,19 @@ namespace Safe_Plus_Dental_Care
         {
             InitializeComponent();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
+        }
+
+        private void btnBookApp_Click(object sender, EventArgs e)
+        {
+            BookApppointment ba = new BookApppointment();
+            ba.Show();
+            this.Close();
+        }
     }
 }

@@ -16,5 +16,12 @@ namespace Safe_Plus_Dental_Care
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ReceptionistHome rh = new ReceptionistHome();
+            rh.Show();
+            this.Close();
+        }
     }
 }
