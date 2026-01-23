@@ -12,3 +12,19 @@ C:\Users\User\Desktop\Dental\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic
 C:\Users\User\Desktop\Dental\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Appointment.resources
 C:\Users\User\Desktop\Dental\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Patient.resources
 C:\Users\User\Desktop\Dental\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Login.resources
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\bin\Debug\Dental_Clinic.exe.config
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\bin\Debug\Dental_Clinic.exe
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\bin\Debug\Dental_Clinic.pdb
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.csproj.AssemblyReference.cache
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.exe.config
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.AboutBox1.resources
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Appointment.resources
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Login.resources
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Home.resources
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Patient.resources
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.Properties.Resources.resources
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.csproj.GenerateResource.cache
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.csproj.CoreCompileInputs.cache
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.exe
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.pdb
+C:\Users\Eashan\Desktop\This pc\AIUB\6th semester\oop2\Project\oop2-final-project\Dental_Clinic\Dental_Clinic\obj\Debug\Dental_Clinic.SignUp.resources

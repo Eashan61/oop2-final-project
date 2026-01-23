@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Safe_Plus_Dental_Care
 {
-    public partial class Form1 : Form
+    public partial class DoctorHome : Form
     {
-        public Form1()
+        public DoctorHome()
         {
             InitializeComponent();
         }
