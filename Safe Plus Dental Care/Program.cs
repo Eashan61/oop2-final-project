@@ -16,7 +16,7 @@ namespace Safe_Plus_Dental_Care
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new BookApppointment());
         }
     }
 }

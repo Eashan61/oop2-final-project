@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comGender = new System.Windows.Forms.ComboBox();
+            this.tbName = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label10 = new System.Windows.Forms.Label();
+            this.btnBook = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.AppDate = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.comBlood = new System.Windows.Forms.ComboBox();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.tbPh = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label12
@@ -53,27 +53,27 @@
             this.label12.TabIndex = 28;
             this.label12.Text = "Gender";
             // 
-            // comboBox3
+            // comGender
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.comGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comGender.FormattingEnabled = true;
+            this.comGender.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox3.Location = new System.Drawing.Point(202, 167);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(118, 25);
-            this.comboBox3.TabIndex = 27;
+            this.comGender.Location = new System.Drawing.Point(202, 167);
+            this.comGender.Margin = new System.Windows.Forms.Padding(2);
+            this.comGender.Name = "comGender";
+            this.comGender.Size = new System.Drawing.Size(118, 25);
+            this.comGender.TabIndex = 27;
             // 
-            // textBox1
+            // tbName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(203, 85);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(118, 23);
-            this.textBox1.TabIndex = 26;
+            this.tbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbName.Location = new System.Drawing.Point(203, 85);
+            this.tbName.Margin = new System.Windows.Forms.Padding(2);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(118, 23);
+            this.tbName.TabIndex = 26;
             // 
             // label11
             // 
@@ -86,37 +86,18 @@
             this.label11.TabIndex = 25;
             this.label11.Text = "Name";
             // 
-            // button1
+            // btnBook
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(393, 377);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 37);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Book";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(395, 156);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(208, 23);
-            this.dateTimePicker2.TabIndex = 23;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(396, 115);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 25);
-            this.label10.TabIndex = 22;
-            this.label10.Text = "Time";
+            this.btnBook.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBook.Location = new System.Drawing.Point(393, 377);
+            this.btnBook.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBook.Name = "btnBook";
+            this.btnBook.Size = new System.Drawing.Size(142, 37);
+            this.btnBook.TabIndex = 24;
+            this.btnBook.Text = "Book";
+            this.btnBook.UseVisualStyleBackColor = false;
+            this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
             // 
             // label9
             // 
@@ -129,16 +110,16 @@
             this.label9.TabIndex = 21;
             this.label9.Text = "Date";
             // 
-            // dateTimePicker1
+            // AppDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(393, 74);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(208, 23);
-            this.dateTimePicker1.TabIndex = 20;
-            this.dateTimePicker1.Value = new System.DateTime(2026, 1, 20, 12, 57, 31, 0);
+            this.AppDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AppDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.AppDate.Location = new System.Drawing.Point(393, 74);
+            this.AppDate.Margin = new System.Windows.Forms.Padding(2);
+            this.AppDate.Name = "AppDate";
+            this.AppDate.Size = new System.Drawing.Size(208, 23);
+            this.AppDate.TabIndex = 20;
+            this.AppDate.Value = new System.DateTime(2026, 1, 20, 12, 57, 31, 0);
             // 
             // label7
             // 
@@ -151,11 +132,11 @@
             this.label7.TabIndex = 18;
             this.label7.Text = "Blood Group";
             // 
-            // comboBox1
+            // comBlood
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comBlood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comBlood.FormattingEnabled = true;
+            this.comBlood.Items.AddRange(new object[] {
             "A+",
             " A-",
             "B+",
@@ -164,42 +145,62 @@
             "O-",
             "AB+ ",
             "AB-"});
-            this.comboBox1.Location = new System.Drawing.Point(203, 242);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(118, 25);
-            this.comboBox1.TabIndex = 16;
+            this.comBlood.Location = new System.Drawing.Point(203, 242);
+            this.comBlood.Margin = new System.Windows.Forms.Padding(2);
+            this.comBlood.Name = "comBlood";
+            this.comBlood.Size = new System.Drawing.Size(118, 25);
+            this.comBlood.TabIndex = 16;
             // 
-            // button2
+            // btnBack
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(247, 377);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 37);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "< Back";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnBack.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(247, 377);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(142, 37);
+            this.btnBack.TabIndex = 29;
+            this.btnBack.Text = "< Back";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // tbPh
+            // 
+            this.tbPh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPh.Location = new System.Drawing.Point(394, 177);
+            this.tbPh.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPh.Name = "tbPh";
+            this.tbPh.Size = new System.Drawing.Size(118, 23);
+            this.tbPh.TabIndex = 31;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(388, 126);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(140, 25);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Phone Number";
             // 
             // BookApppointment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.tbPh);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comGender);
+            this.Controls.Add(this.tbName);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.btnBook);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.AppDate);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comBlood);
             this.Name = "BookApppointment";
             this.Text = "BookApppointment";
             this.ResumeLayout(false);
@@ -210,16 +211,16 @@
         #endregion
 
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comGender;
+        private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnBook;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker AppDate;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox comBlood;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.TextBox tbPh;
+        private System.Windows.Forms.Label label2;
     }
 }
