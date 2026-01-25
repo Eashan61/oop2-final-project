@@ -21,7 +21,13 @@ namespace Safe_Plus_Dental_Care
         {
             Login login = new Login();
             login.Show();
-            this.Close();
+            
+        }
+
+        private void btnChApp_Click(object sender, EventArgs e)
+        {
+            ShowAppointment sa = new ShowAppointment();
+            sa.Show();
         }
     }
 }

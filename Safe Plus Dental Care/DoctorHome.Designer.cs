@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnChApp = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -49,21 +49,22 @@
             this.button2.Text = "Generate Prescription";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnChApp
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(283, 190);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(234, 27);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Check Appointment";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnChApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.btnChApp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnChApp.FlatAppearance.BorderSize = 0;
+            this.btnChApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChApp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChApp.ForeColor = System.Drawing.Color.White;
+            this.btnChApp.Location = new System.Drawing.Point(283, 190);
+            this.btnChApp.Margin = new System.Windows.Forms.Padding(2);
+            this.btnChApp.Name = "btnChApp";
+            this.btnChApp.Size = new System.Drawing.Size(234, 27);
+            this.btnChApp.TabIndex = 23;
+            this.btnChApp.Text = "Check Appointment";
+            this.btnChApp.UseVisualStyleBackColor = false;
+            this.btnChApp.Click += new System.EventHandler(this.btnChApp_Click);
             // 
             // btnLogout
             // 
@@ -85,7 +86,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnChApp);
             this.Name = "DoctorHome";
             this.Text = "DoctorHome";
             this.ResumeLayout(false);
@@ -95,7 +96,7 @@
         #endregion
 
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnChApp;
         private System.Windows.Forms.Button btnLogout;
     }
 }

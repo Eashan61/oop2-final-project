@@ -90,6 +90,12 @@
     <Compile Include="ReceptionistHome.Designer.cs">
       <DependentUpon>ReceptionistHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="ShowAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAppointment.Designer.cs">
+      <DependentUpon>ShowAppointment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sign Up.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="ReceptionistHome.resx">
       <DependentUpon>ReceptionistHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAppointment.resx">
+      <DependentUpon>ShowAppointment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sign Up.resx">
       <DependentUpon>Sign Up.cs</DependentUpon>
