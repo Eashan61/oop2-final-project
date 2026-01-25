@@ -30,5 +30,12 @@ namespace Safe_Plus_Dental_Care
             ba.Show();
             this.Close();
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            DeleteAppointment deleteAppointment = new DeleteAppointment();
+            deleteAppointment.Show();
+            
+        }
     }
 }
