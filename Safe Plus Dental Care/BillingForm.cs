@@ -157,6 +157,7 @@ namespace Safe_Plus_Dental_Care
         // ================= PRINT CONTENT =================
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
+
             Font font = new Font("Arial", 12);
             Font bold = new Font("Arial", 14, FontStyle.Bold);
 
