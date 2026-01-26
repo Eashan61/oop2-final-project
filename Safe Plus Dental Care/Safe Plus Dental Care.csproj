@@ -52,11 +52,24 @@
     <Compile Include="AdminHome.Designer.cs">
       <DependentUpon>AdminHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="AppointmentItem.cs" />
+    <Compile Include="BillingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingForm.Designer.cs">
+      <DependentUpon>BillingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BookApppointment.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BookApppointment.Designer.cs">
       <DependentUpon>BookApppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DaashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DaashBoard.Designer.cs">
+      <DependentUpon>DaashBoard.cs</DependentUpon>
     </Compile>
     <Compile Include="DeleteAppointment.cs">
       <SubType>Form</SubType>
@@ -105,8 +118,14 @@
     <EmbeddedResource Include="AdminHome.resx">
       <DependentUpon>AdminHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BillingForm.resx">
+      <DependentUpon>BillingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BookApppointment.resx">
       <DependentUpon>BookApppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DaashBoard.resx">
+      <DependentUpon>DaashBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeleteAppointment.resx">
       <DependentUpon>DeleteAppointment.cs</DependentUpon>

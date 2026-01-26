@@ -19,8 +19,8 @@ namespace Safe_Plus_Dental_Care
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            Login log = new Login();
+            log.Show();
             this.Close();
         }
 
@@ -28,7 +28,7 @@ namespace Safe_Plus_Dental_Care
         {
             BookApppointment ba = new BookApppointment();
             ba.Show();
-            this.Close();
+            
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -36,6 +36,21 @@ namespace Safe_Plus_Dental_Care
             DeleteAppointment deleteAppointment = new DeleteAppointment();
             deleteAppointment.Show();
             
+        }
+
+        private void btnGenBill_Click(object sender, EventArgs e)
+        {
+            
+
+            BillingForm billForm = new BillingForm();
+            billForm.Show();
+
+        }
+
+        private void btnDash_Click(object sender, EventArgs e)
+        {
+            DaashBoard daashBoard = new DaashBoard();
+            daashBoard.Show();
         }
     }
 }
