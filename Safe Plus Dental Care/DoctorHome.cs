@@ -29,5 +29,11 @@ namespace Safe_Plus_Dental_Care
             ShowAppointment sa = new ShowAppointment();
             sa.Show();
         }
+
+        private void btnGenPre_Click(object sender, EventArgs e)
+        {
+            PrescriptionForm pf = new PrescriptionForm();
+            pf.Show();
+        }
     }
 }
